@@ -4,7 +4,7 @@ A command line tool written in python that scrapes deepl.com and gives you the t
 This was sort of an experiment but I ended up with a tool that works quite well. Currently it is a little slow since its scraping the website everytime. A better and faster command line utility is in the works.
 
 # Setting up
-1. Open 
+1. Clone the repository and then navigate to it.
 2. Make sure you have python3 and pip installed, check using:
 ``` python3 --version ``` then
 ``` pip --version ```
