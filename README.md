@@ -10,8 +10,9 @@ This was sort of an experiment but I ended up with a tool that works quite well.
 ``` pip --version ```
 3. Install pipenv using: ``` pip install pipenv ```
 4. Install the dependencies using ``` pipenv install ``` <br>
-5. Make the script executable using ``` chmod +x path/to/scrapingDeepL2.py ``` <br>
-You are good to go!
+5. Make the script executable using ``` chmod +x path/to/scrapingDeepL2.py ``` 
+
+  You are good to go!
 
 <br>
 
@@ -23,3 +24,21 @@ Bash syntax for running this script: <br>
 <br>
 
 *Note:* Make sure the language code is the ISO-639-1 code. 
+<br>
+
+# Supported Languages
+<br>
+
+| Language | ISO-639-1 code |
+| -------- | -------------- |
+| English  |       en       |
+| German   |       de       |
+| French   |       fr       |
+| Spanish  |       es       |
+| Portugese|       pt       |
+| Italian  |       it       |
+| Dutch    |       nl       |
+| Russian  |       ru       |
+| Polish   |       pl       |
+| Chinese  |       zh       |
+| Japanese |       ja       |
