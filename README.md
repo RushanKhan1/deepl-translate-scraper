@@ -12,13 +12,10 @@ This was sort of an experiment but I ended up with a tool that works quite well.
 4. Install the dependencies using ``` pipenv install ``` <br>
 5. Make the script executable using ``` chmod +x path/to/scrapingDeepL2.py ``` 
 
-  You are good to go!
-
+  You are good to go! 
 <br>
 
 # Usage
-<br>
-
 Bash syntax for running this script: <br> 
 `./scrapingDeepL2.py language_code The sentence to be translated`
 <br>
@@ -27,7 +24,6 @@ Bash syntax for running this script: <br>
 <br>
 
 # Supported Languages
-<br>
 
 | Language | ISO-639-1 code |
 | -------- | -------------- |
