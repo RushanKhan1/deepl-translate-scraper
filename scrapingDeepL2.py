@@ -29,12 +29,10 @@ browser = webdriver.Firefox(options=options)
 browser.get(url);
 # trick to bypass their protective measures.
 elem = browser.find_element_by_css_selector('#dl_translator > div.lmt__text > div.lmt__sides_container > div.lmt__side_container.lmt__side_container--source > div.lmt__textarea_container > div.lmt__inner_textarea_container > textarea')
-time.sleep(4) # if you have a slow internet connection then please increase the sleep time here
+time.sleep(4) # if you have a slow internet connection then please increase the sleep time here, time is in seconds
 browser.execute_script("document.getElementById('target-dummydiv').style.visibility = 'visible';")
 elem = browser.find_element_by_css_selector('#target-dummydiv')
 text = elem.text;
 lines = text.split('\n')
-print(lines[len(lines)-1]);
-# text = pyperclip.paste(); # if you are using headless mode nothing will get copied
+print('Translation: ' + lines[len(lines)-1]);
 browser.close();
-# /html/body/div[2]/div[1]/div[3]/div[2]/div[3]/div[3]
