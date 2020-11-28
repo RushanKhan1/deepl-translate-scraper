@@ -1,7 +1,11 @@
 # deepl-translate-scraper
 A command line tool written in python that scrapes deepl.com and gives you the translation of the entered sentence into the entered language.
 <br><br>
-This was sort of an experiment but I ended up with a tool that works quite well. Currently it is a little slow since its scraping the website everytime. A better and faster command line utility is in the works.
+This was sort of an experiment but I ended up with a tool that works quite well. Currently it is a little slow since its scraping the website everytime. A better and faster command line utility is in the works. <br><br>
+
+<p align="center">
+<img src="images/Screenshot.png" width="800" height="500">
+</p>
 
 ## Setting up
 1. Clone the repository and then navigate to it.
